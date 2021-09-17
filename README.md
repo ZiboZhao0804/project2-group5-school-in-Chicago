@@ -12,7 +12,7 @@ According to NICHE, "The 2021 Best Public Elementary Schools and School District
 ## Step 1. **E**xtract
 ### Data Sources
 
-[[!niche](Images/NicheLogo.png)](https://www.niche.com/) <br>
+[![niche](Images/NicheLogo.png)](https://www.niche.com/) <br>
 [Best Public Elementary Schools in the Chicago Area](https://www.niche.com/k12/search/best-public-elementary-schools/m/chicago-metro-area/) <br>
 [Best School Districts in the Chicago Area](https://www.niche.com/k12/search/best-school-districts/m/chicago-metro-area/)
 
