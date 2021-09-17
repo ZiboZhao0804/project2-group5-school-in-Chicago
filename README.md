@@ -7,7 +7,7 @@ Are you going to purchase a house within the best school districts in the Chicag
 You probably will find out the answers here ... <br>
 Let's go and take a look at the web scraping results from NICHE!
 
-According to NICHE, "The 2021 Best Public Elementary Schools and School Districts ranking is based on rigorous analysis of key statistics and millions of reviews from students and parents using data from the U.S. Department of Education. 
+According to NICHE, "The 2021 Best Public Elementary Schools and School Districts ranking is based on rigorous analysis of key statistics and millions of reviews from students and parents using data from the U.S. Department of Education."
 
 ## Step 1. **E**xtract
 ### Data Sources
