@@ -36,7 +36,7 @@ According to NICHE, "The 2021 Best Public Elementary Schools and School District
 
 A web scraping was perform to gather the following infomation for the top **500** best elementary public schools and top **50** school districts:
 
-[Niche_best_elementary_school.ipynb](Niche_best_elementary_school.ipynb) <br>
+[Niche_best_elementary_school.ipynb](Extract/Niche_best_elementary_school.ipynb) <br>
 Best Public Elementary Schools in the Chicago Area:
 - name of school
 - rating of school
@@ -45,7 +45,7 @@ Best Public Elementary Schools in the Chicago Area:
 - number of students
 - student-teacher ratio
 
-[Niche_best_school_district.ipynb](Niche_best_school_district.ipynb) <br>
+[Niche_best_school_district.ipynb](Extract/Niche_best_school_district.ipynb) <br>
 Best School Districts in the Chicago Area:
 - name of district
 - rating of district
@@ -55,8 +55,8 @@ Best School Districts in the Chicago Area:
 - number of students
 
 All the information is extracted via web scraping and stored in the csv files.
-* [top500_elementary_school.csv](top500_elementary_school.csv)
-* [top50_school_district.csv](top50_school_district.csv)
+* [top500_elementary_school.csv](Extract/top500_elementary_school.csv)
+* [top50_school_district.csv](Extract/top50_school_district.csv)
 
 ## Step 2. **T**ransform: what data cleaning or transformation was required.
 
