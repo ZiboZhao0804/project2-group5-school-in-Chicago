@@ -69,12 +69,12 @@ A SQL database was created to support this initiative. The primary reasons for s
 - Consistant data structure
 - Data integrity
 
-[![ERD](Load/'Project2 Group 5 Schools in Chicago ERD.png')]<br>
+![ERD](Load/'Project2 Group 5 Schools in Chicago ERD.png')<br>
 
 The load process uses Python to consume CSV file outputs of the Transform step and populate the database.   
 * [top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
 * [top50_school_district_clean.csv](Transform/top50_school_district_clean.csv)
 
-Python is then used to merge the data into a single joined view, associating Schools with their District.
+Python is then read from the database and merged into a single joined view, associating Schools with their District.
 
 * [top500_elementary_school_withdistrict_clean.csv](Load/top500_elementary_school_withdistrict_clean.csv)
