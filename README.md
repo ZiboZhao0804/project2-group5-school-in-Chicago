@@ -64,7 +64,7 @@ All the information is extracted via web scraping and stored in the csv files.
 ## Step 3. **L**oad: the final database, tables/collections, and why this was chosen.
 
 A database was created to support this initiative. 
-[![niche](Load/Project2 Group 5 Schools in Chicago ERD.png')]<br>
+[! (Load/Project2 Group 5 Schools in Chicago ERD.png')]<br>
 
 The load process uses Python to consume CSV file outputs of the Transform step and populate the database.   
 * [top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
