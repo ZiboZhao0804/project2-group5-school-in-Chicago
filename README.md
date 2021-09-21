@@ -69,8 +69,8 @@ A SQL database was created to support this initiative. The primary reasons for s
 - Consistant data structure
 - Data integrity
 
-![ERD](Load/'Project2 Group 5 Schools in Chicago ERD.png')<br>
-
+![ERD](/Load/'Project2_Group_5_Schools_in_Chicago_ERD.png "San Juan Mountains")<br>
+ 
 The load process uses Python to consume CSV file outputs of the Transform step and populate the database.   
 * [top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
 * [top50_school_district_clean.csv](Transform/top50_school_district_clean.csv)
