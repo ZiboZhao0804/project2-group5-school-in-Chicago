@@ -71,9 +71,8 @@ All the information is extracted via web scraping and stored in the csv files.
 - [top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
 
 ## Step 3. **L**oad
-
-A SQL database was created to support this initiative. The primary reasons for selecting a SQL database were
 [Load.ipynb](Load/Load.ipynb) <br>
+A SQL database was created to support this initiative. The primary reasons for selecting a SQL database were
 - Extensable data structure
 - Consistant data structure
 - Data integrity
