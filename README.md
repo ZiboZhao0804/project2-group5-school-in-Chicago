@@ -62,10 +62,10 @@ All the information is extracted via web scraping and stored in the csv files.
 
 - State from the district column of the school table is removed. 
 - White space of the disctrict column is trimmed in both tables.
-- Student number from both tables is converted from string type to integer type. 
+- Student number from both tables is converted from string type to integer type. <br>
 [data_Transform.ipynb](Transform/data_Transform.ipynb) <br>
 [top50_school_district_clean.csv](Transform/top50_school_district_clean.csv) <br>
-[top500_elementary_school_clean.csv](Transfrom/top500_elementary_school_clean.csv)
+[top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
 
 ## Step 3. **L**oad
 
