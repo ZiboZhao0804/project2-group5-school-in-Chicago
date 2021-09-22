@@ -58,19 +58,22 @@ All the information is extracted via web scraping and stored in the csv files.
 * [top500_elementary_school.csv](Extract/top500_elementary_school.csv)
 * [top50_school_district.csv](Extract/top50_school_district.csv)
 
-## Step 2. **T**ransform:
+## Step 2. **T**ransform
 
-- State from the district column of the school table is removed. 
-- White space of the disctrict column is trimmed in both tables.
-- Student number from both tables is converted from string type to integer type. <br>
 [data_Transform.ipynb](Transform/data_Transform.ipynb) <br>
-[top50_school_district_clean.csv](Transform/top50_school_district_clean.csv) <br>
-[top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
+#### Data cleaning
+- "States" from the district column of the school table is removed. 
+- White space of the disctrict column is trimmed in both tables.
+#### Data type conversion
+- Student number from both tables is converted from string type to integer type. <br>
+#### Final clean tables
+- [top50_school_district_clean.csv](Transform/top50_school_district_clean.csv) <br>
+- [top500_elementary_school_clean.csv](Transform/top500_elementary_school_clean.csv)
 
 ## Step 3. **L**oad
 
 A SQL database was created to support this initiative. The primary reasons for selecting a SQL database were
-
+[Load.ipynb](Load/Load.ipynb) <br>
 - Extensable data structure
 - Consistant data structure
 - Data integrity
